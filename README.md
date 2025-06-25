@@ -79,7 +79,7 @@ El proceso de desarrollo contempla varias etapas planificadas para asegurar una 
 ## 11. 📌 Anexos Técnicos
 
 - Diagrama de arquitectura
-
+https://github.com/JMDevx/IDEA-Store/blob/main/idea-aviation.drawio.png
 
 - Modelo entidad-relación de la base de datos operativa y del datawarehouse.
 - Ejemplos de endpoints de API RESTful para integraciones externas.
