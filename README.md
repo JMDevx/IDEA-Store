@@ -16,7 +16,7 @@ Esta propuesta plantea el desarrollo de una nueva tienda e-commerce para la escu
 
 ## 3. 🧠 Análisis de la Situación Actual
 
-- La plataforma WooCommerce funciona sobre WordPress, un CMS generalista no diseñado originalmente para manejar operaciones de e-commerce complejas.
+- La plataforma WooCommerce funciona sobre WordPress, un CMS de uso general no diseñado originalmente para manejar operaciones de e-commerce masivas.
 - El almacenamiento de datos se encuentra desorganizado y redundante debido al uso excesivo de plugins, lo que complica tanto la escalabilidad como las tareas de mantenimiento.
 - El servidor dedicado actual aloja múltiples servicios, lo cual incrementa la posibilidad de conflictos y limita la capacidad de aislamiento de fallos.
 - No existen procesos estandarizados de integración con sistemas externos ni mecanismos robustos de respaldo o recuperación ante incidentes.
@@ -58,30 +58,22 @@ El proceso de desarrollo contempla varias etapas planificadas para asegurar una 
 - La estructura modular facilitará la evolución del sistema y su integración con herramientas de gestión internas como sistemas académicos o financieros.
 - La exposición de datos mediante interfaces seguras permitirá implementar nuevos procesos automatizados y conectar la tienda con plataformas de análisis y monitoreo.
 
-## 8. 💰 Estimación de Costos
 
-- **Costo de desarrollo:** Basado en una estimación de tiempo y recursos necesarios para cada fase del proyecto, incluyendo diseño, desarrollo, documentación y pruebas.
-- **Costo de migración:** Incluye el análisis de la estructura de datos actual, desarrollo de scripts de extracción y transformación, y ejecución controlada de la migración.
-- **Mantenimiento y soporte:** Puede ser ofrecido bajo modalidad mensual, por paquete de horas o soporte on-demand, cubriendo actualizaciones, resolución de incidencias y mejoras evolutivas.
-
-## 9. 👨‍💼 Recomendaciones Organizacionales
+## 8. 👨‍💼 Recomendaciones Organizacionales
 
 - Se recomienda la capacitación del personal encargado del soporte técnico y la operación diaria de la tienda, incluyendo sesiones prácticas y manuales de uso.
 - Es importante establecer un proceso de despliegue controlado, que incluya ambientes de prueba y políticas de control de versiones.
 - Se sugiere adoptar una metodología ágil o iterativa para futuras mejoras, permitiendo una evolución constante de la plataforma.
 
-## 10. ⚠️ Riesgos y Plan de Contingencia
+## 9. ⚠️ Riesgos y Plan de Contingencia
 
 - **Riesgo de pérdida de datos durante la migración:** Se mitigará mediante respaldos completos, pruebas piloto de migración, y verificación de datos post-migración.
-- **Riesgo de incompatibilidades con integraciones:** Se reducirá utilizando pruebas automatizadas de API y una arquitectura desacoplada.
 - **Riesgo de resistencia al cambio por parte de usuarios internos:** Se abordará con documentación clara, formación práctica y acompañamiento post-implementación.
 
-## 11. 📌 Anexos Técnicos
+## 10. 📌 Anexos Técnicos
 
 - Diagrama de arquitectura
 
 ![alt text](https://github.com/JMDevx/IDEA-Store/blob/main/idea-aviation.drawio.png?raw=true)
 
-- Modelo entidad-relación de la base de datos operativa y del datawarehouse.
-- Ejemplos de endpoints de API RESTful para integraciones externas.
 - Cronograma detallado de ejecución por semana.
