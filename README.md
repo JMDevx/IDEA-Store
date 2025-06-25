@@ -1,8 +1,8 @@
 # IDEA-Store
 Este repositorio contiene la propuesta y el codigo correspondiente a la solución web de la tienda IDEA Aviation Corp
+
 # 📄 Propuesta Técnica de Solución
 
-# PROPUESTA
 ## 1. 🧹 Resumen Ejecutivo
 
 Esta propuesta plantea el desarrollo de una nueva tienda e-commerce para la escuela de aviación **IDEA Aviation Corp**, con el objetivo de reemplazar la actual solución basada en WooCommerce. La necesidad de este cambio surge a raíz de múltiples desafíos técnicos y operativos que afectan directamente el rendimiento, la escalabilidad y la seguridad del sistema actual. La nueva solución estará construida utilizando el framework PHP CodeIgniter, que ofrece un enfoque más limpio, modular y orientado al rendimiento, y se alojará en el servidor dedicado ya existente. Con esta implementación, se busca modernizar la plataforma de comercio electrónico, mejorar la integridad de los datos y establecer una base sólida para futuras integraciones con sistemas internos y externos.
