@@ -3,11 +3,11 @@ Este repositorio contiene la propuesta y el codigo correspondiente a la solució
 
 # 📄 Propuesta Técnica de Solución
 
-## 1. 🧹 Resumen Ejecutivo
+## 1. 🧹 Resumen
 
 Esta propuesta plantea el desarrollo de una nueva tienda e-commerce para la escuela de aviación **IDEA Aviation Corp**, con el objetivo de reemplazar la actual solución basada en WooCommerce. La necesidad de este cambio surge a raíz de múltiples desafíos técnicos y operativos que afectan directamente el rendimiento, la escalabilidad y la seguridad del sistema actual. La nueva solución estará construida utilizando el framework PHP CodeIgniter, que ofrece un enfoque más limpio, modular y orientado al rendimiento, y se alojará en el servidor dedicado ya existente. Con esta implementación, se busca modernizar la plataforma de comercio electrónico, mejorar la integridad de los datos y establecer una base sólida para futuras integraciones con sistemas internos y externos.
 
-## 2. 🕵️‍♂️ Identificación del Problema
+## 2. 🕵️‍♂️ Problema
 
 - La tienda actual en WooCommerce depende de una gran cantidad de plugins, muchos de los cuales generan conflictos entre sí, afectan negativamente la performance general y amplían la superficie de ataque frente a amenazas externas.
 - La estructura de la base de datos de WordPress no está optimizada para operaciones de e-commerce a gran escala, resultando en lentitud en las consultas, errores intermitentes y pérdida de eficiencia en procesos críticos como el checkout o la carga de catálogos.
@@ -51,7 +51,7 @@ El proceso de desarrollo contempla varias etapas planificadas para asegurar una 
   - Los datos más antiguos se almacenarán en un sistema de tipo **datawarehouse** sobre MySQL, optimizado para consultas históricas y reporting.
   - Se implementarán scripts de validación y limpieza de datos para asegurar la integridad y consistencia de la información migrada.
 
-## 7. 📈 Impacto Esperado
+## 7. 📈 Impacto 
 
 - Se espera una **reducción significativa en los tiempos de carga** del sitio y una mejora general en la experiencia del usuario final.
 - La eliminación de plugins innecesarios y del entorno WordPress reducirá drásticamente la superficie de ataque, disminuyendo el riesgo de infecciones por malware y spam.
@@ -59,18 +59,12 @@ El proceso de desarrollo contempla varias etapas planificadas para asegurar una 
 - La exposición de datos mediante interfaces seguras permitirá implementar nuevos procesos automatizados y conectar la tienda con plataformas de análisis y monitoreo.
 
 
-## 8. 👨‍💼 Recomendaciones Organizacionales
-
-- Se recomienda la capacitación del personal encargado del soporte técnico y la operación diaria de la tienda, incluyendo sesiones prácticas y manuales de uso.
-- Es importante establecer un proceso de despliegue controlado, que incluya ambientes de prueba y políticas de control de versiones.
-- Se sugiere adoptar una metodología ágil o iterativa para futuras mejoras, permitiendo una evolución constante de la plataforma.
-
-## 9. ⚠️ Riesgos y Plan de Contingencia
+## 8. ⚠️ Riesgos y Plan de Contingencia
 
 - **Riesgo de pérdida de datos durante la migración:** Se mitigará mediante respaldos completos, pruebas piloto de migración, y verificación de datos post-migración.
 - **Riesgo de resistencia al cambio por parte de usuarios internos:** Se abordará con documentación clara, formación práctica y acompañamiento post-implementación.
 
-## 10. 📌 Anexos Técnicos
+## 9. 📌 Anexos Técnicos
 
 - Diagrama de arquitectura
 
