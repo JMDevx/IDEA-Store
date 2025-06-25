@@ -78,7 +78,9 @@ El proceso de desarrollo contempla varias etapas planificadas para asegurar una 
 
 ## 11. 📌 Anexos Técnicos
 
-- Diagrama de arquitectura de la nueva solución.
+- Diagrama de arquitectura
+
+
 - Modelo entidad-relación de la base de datos operativa y del datawarehouse.
 - Ejemplos de endpoints de API RESTful para integraciones externas.
 - Cronograma detallado de ejecución por semana.
